@@ -8,8 +8,4 @@
 const props = defineProps({
   error: Object,
 });
-const error = useError();
-if (error.value.statusCode === 404 || "404") {
-  error.value.message = "[script]: Oops! Page not found 😔";
-}
 </script>
