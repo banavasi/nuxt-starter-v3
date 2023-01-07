@@ -5,7 +5,7 @@
       Example app with daisyUi + talwind and typescript
     </h1>
     <div class="p-4">
-      <button class="btn">Hello daisyUI</button>
+      <button class="btn btn-primary">Hello daisyUI</button>
     </div>
     <Icon name="uil:github" size="5em" class="text-red-200" />
   </main>
