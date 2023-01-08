@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       meta: [{ name: "description", content: "My amazing site." }],
     },
   },
-  modules: ["nuxt-icon", "@nuxt/content"],
+  modules: ["nuxt-icon", "@nuxt/content", "@vueuse/nuxt"],
   css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {
